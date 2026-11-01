@@ -1,0 +1,12 @@
+{
+  "name": "micro-export-playbook",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "micro-export-playbook.accrepo.com", "custom_domain": true }
+  ],
+  "workers_dev": true
+}
